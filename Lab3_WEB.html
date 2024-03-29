@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Лабораторна№3 Дашевський Марк ТЗ-21</title>
+</head>
+<body>
+    <table border = "1" width = "40%">
+        <tr>
+            <th colspan="2" >Pizza Shop 2.0</th>
+        </tr>
+        <tr>
+            <td>
+                <form><label for="name">Name</label></form> 
+            </td>
+            <td>
+                <form>
+                    <input type="text" id="nameInput" placeholder="Name" required minlength="2" maxlength="30" pattern="[A-Za-zА-Яа-яЁёІіЇїЄєҐґ]+" required  autofocus>
+                </form>
+            </td>
+        </tr>
+   
+        <tr>
+        <td>Pizza Topping</td>
+        <td>
+        <form> 
+         
+        <input type="radio" id="supreme" name="topping" value="S" /> <label for="supreme">Supreme</label><br /> 
+        <input type="radio" id="vegetarian" name="topping" value="V" /> <label for="vegetarian">Vegetarian</label><br /> 
+        <input type="radio" id="Hawaiian" name="topping" value="H" /> <label for="hawaiian">Hawaiian</label> 
+        
+        </form>
+    </td>
+    </tr>
+    <tr>
+        <td>Pizza Sauce</td>
+        <td>
+            <form>
+                <select id="options" name="Sauce">
+                    <option value="sauce1">Tomato</option>
+                    <option value="sauce2">Pesto</option>
+                    <option value="sauce3">None</option>
+                </select>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Optional Extras</td>
+        <td>
+        <form> 
+            <input type="checkbox" id="extraCheese" name="extras" value="c" /> <label for="extraCheese">Extra Cheese</label>
+            <input type="checkbox" id="glutenfreebase" name="gluten" value="g" /> <label for="glutenFreeBase">Gluten Free Base </label>
+        </form>
+    </td>
+    </tr>
+    <tr>
+        <td colspan="2">Delivery Instructions:<br>
+            <form>        
+    <textarea id="message" name="message" rows="4" cols="50" ></textarea><br>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <form>
+                <input type="submit" value="Send my Order">
+            </form>
+        </td>
+    </tr>
+    </table>
+</body>
+</html>
