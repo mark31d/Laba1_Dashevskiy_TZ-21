@@ -1,0 +1,201 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	background-color: #f5f5f5;
+}
+
+.container {
+	display: flex;
+	width: 1400px;
+	height: 850px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	margin: 0 auto ;
+}
+
+.profile {
+	width: 300px;
+	background-color: #f0f0f0;
+	padding: 20px;
+	display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.avatar {
+	padding: 45px;
+	width: 200px;
+	height: 200px;
+	border-radius: 20%;
+	margin-bottom: -50px;
+}
+
+.profile-info {
+	font-family: 'Franklin Gothic', 'Arial Narrow', Arial;
+	padding-left: 0px;
+    margin-top: 10px;
+	display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+.content {
+	flex: 1;
+	padding: 0; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#666;
+	margin: 16px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+h1 {
+	margin: 5px;
+}
+.inf{
+	color:#666;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+	margin-top: 10px;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+}
+.inf p {
+    margin: 10px 0; 
+}
+
+
+.grid {
+	
+	color:#666;
+	font-family: 'Franklin Gothic', 'Arial Narrow', Arial;
+	padding: 10px;
+	margin: 50px;
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: repeat(2, 60%);
+	grid-gap: 20px;
+	
+}
+
+.grid-item {
+	
+	color:#666;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.cv {
+	display: block;
+	width: 150px;
+	height: 40px;
+	background-color: #304cfd;
+	color: white;
+	border: none;
+	border-radius: 15px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.cv:hover {
+	background-color: #283fbb;
+}
+.p{
+	
+	color: #666;
+}
+.profile-info h2 {
+	font-weight: bold;
+}
+
+.profile-info p {
+	margin-top: 10px;
+}
+
+.profile-info button {
+	margin-top: 20px;
+}
+
+.content h1 {
+	margin-top: 0;
+}
+
+.content h2 {
+	margin-top: 20px;
+}
+
+.content .grid {
+	margin-top: 20px;
+}
+
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px ;
+}
+
+.nav-item {
+	
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 10px; 
+}
+
+.about {
+	
+	background-color: blue;
+	color: white;
+} 
+.student{
+	color:#666;
+	background-color: rgb(207, 216, 236);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 120px;
+    height: 20px;
+	border-radius: 15px;
+    padding: 5px;
+    
+    
+}
+
+
+
+
+.nav-item:not(.about) {
+	
+	background-color: white;
+	color: #666;
+}
+.line{
+	margin-left: 10px;
+	width: 50px;
+	background: rgb(255,150,94);
+	background: linear-gradient(90deg, rgba(255,150,94,1) 27%, rgba(48,76,253,1) 27%); 
+	height: 5px;
+	border-radius: 10px;
+  }
+  .fourblock{
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -40px;
+}
+.roundedd-ava {
+	border-radius: 50px;
+}
